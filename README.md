@@ -9,6 +9,7 @@ proyecto/
 ├── index.html
 ├── css/styles.css
 ├── js/script.js
+├── emoji.jpg
 └── README.md
 ```
 
