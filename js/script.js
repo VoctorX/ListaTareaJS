@@ -5,7 +5,7 @@ function agregarTarea() {
     if (tareaTexto === "") return;
 
     let imgURL = prompt("Pega la URL de la imagen para esta tarea (o deja vacío para usar una por defecto):");
-    if (imgURL === "" || imgURL === null) imgURL = "emoji.jpg";
+    if (imgURL === "" || imgURL === null) imgURL = "assets/img/emoji.jpg";
 
     let li = document.createElement("li");
     li.innerHTML = `
@@ -38,5 +38,4 @@ function editarTarea(boton) {
     if (nuevoTxt !== null && nuevoTxt !==""){
         span.textContent= nuevoTxt;
     }
- 
 }
